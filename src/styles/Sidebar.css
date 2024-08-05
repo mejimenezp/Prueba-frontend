@@ -1,0 +1,20 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .sidebar-title {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .sidebar-list {
+    flex-grow: 1;
+  }
+  
+  .sidebar-list .MuiListItemButton-root {
+    justify-content: center;
+  }
+  
